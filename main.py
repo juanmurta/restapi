@@ -29,4 +29,4 @@ def fat_produto(produto):
         return {produto: "Inexistente"}
 
 
-app.run()  # no replit use app.run(host="0.0.0.0") # coloca o site no ar
+app.run(host='0.0.0.0')  # no replit use app.run(host="0.0.0.0") # coloca o site no ar
